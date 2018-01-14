@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RESTfulmailservice:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="RESTfulmailservice.war">
+      <element id="artifact" artifact-name="RESTfulmailservice:war exploded" />
+    </root>
+  </artifact>
+</component>
