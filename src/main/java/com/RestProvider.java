@@ -27,7 +27,7 @@ public class RestProvider {
     public String restCallBuilder() {
         String path;
         try{
-            path = this.restTemplate.getForObject("http://localhost:8080/sendMessage", String.class);//convert answer into a String
+            path = this.restTemplate.getForObject("http://localhost:8080/sendMessage", String.class);
         } catch(RestClientException ex) {
             path = null;
         }
